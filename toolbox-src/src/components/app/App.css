@@ -1,6 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
-  /* text-align: center;
-  width: 100%; */
+  @apply w-full flex flex-col sm:flex-row flex-grow overflow-hidden;
 }
 
 .App-logo {

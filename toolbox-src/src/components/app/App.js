@@ -5,7 +5,7 @@ import { Navigation } from "../navigation";
 
 const App = () => {
   return (
-    <div className="App w-full flex flex-col sm:flex-row flex-grow overflow-hidden">
+    <div className="App">
       <div className="sm:w-1/3 md:1/4 w-full flex-shrink flex-grow-0 p-4">
         <div className="sticky top-0 p-4 w-full">
           <Navigation />
@@ -14,14 +14,6 @@ const App = () => {
       <main role="main" className="w-full h-full flex-grow p-3 overflow-auto bg-red-100">
         Content
       </main>
-      {/* <Navigation/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="text-3xl font-bold underline">
-          Toolbox
-        </h1>
-        <ColorTools/>
-      </header> */}
     </div>
   );
 };
